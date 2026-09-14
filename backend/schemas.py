@@ -1,12 +1,12 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class ReservePredictionRequest(BaseModel):
-    lat: float
-    lon: float
+    lat: float = Field(..., ge=-90, le=90)
+    lon: float = Field(..., ge=-180, le=180)
     grade: float
     depth: float
-    ndvi: float
+    ndvi: float = Field(..., ge=-1, le=1)
     soil_moisture: float
     lst: float
     rainfall: float

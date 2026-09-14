@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from backend.routes.reserve import router as reserve_router
 
@@ -10,6 +11,15 @@ app = FastAPI(
 )
 
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 app.include_router(reserve_router)
 
 
@@ -17,4 +27,11 @@ app.include_router(reserve_router)
 def root():
     return {
         "message": "GeoMine AI Backend is running"
+    }
+
+@app.get("/health")
+def health():
+    return {
+        "status": "healthy",
+        "service": "GeoMine AI Backend"
     }
