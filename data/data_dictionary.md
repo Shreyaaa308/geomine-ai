@@ -23,3 +23,7 @@
 * **rainfall_mm** (float): Monthly rainfall total (mm)[cite: 1].
 * **blast_delay_count** (integer): Frequency of operational blasting delays[cite: 1].
 * **previous_period_output** (float): Output volume from the prior month (lag feature)[cite: 1].
+## Pipeline Quality Assurance
+* **NASA POWER API Range:** 2023–2024 Monthly Aggregates.
+* **Geological Bounds:** MOIL Balaghat underground shaft depths ($30\text{ m}$ to $420\text{ m}$).
+* **Validation Status:** Automated verification script operational (`validate_schema.py`).
