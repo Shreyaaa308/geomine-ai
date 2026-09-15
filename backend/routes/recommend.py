@@ -23,6 +23,58 @@ PRODUCTION_PREDICTIONS_FILE = (
 def load_production_predictions():
     return pd.read_csv(PRODUCTION_PREDICTIONS_FILE)
 
+def get_shortfall_recommendation(shortfall_percent: float) -> str:
+    if shortfall_percent > 30:
+        return (
+            "Critical production shortfall detected. "
+            "Escalate production recovery actions and reallocate resources."
+        )
+    elif shortfall_percent >= 20:
+        return (
+            "Significant production shortfall detected. "
+            "Review the production plan and optimize resource allocation."
+        )
+    else:
+        return (
+            "Moderate production shortfall detected. "
+            "Monitor production closely and make targeted operational adjustments."
+        )
+
+def get_downtime_recommendation(downtime: float, threshold: float) -> str:
+    if downtime >= threshold * 1.25:
+        return (
+            "Severe downtime detected. "
+            "Initiate urgent maintenance and reallocate operational resources."
+        )
+    else:
+        return (
+            "Downtime detected. "
+            "Schedule preventive maintenance and optimize resource allocation."
+        )
+
+def get_rainfall_recommendation(rainfall: float, threshold: float) -> str:
+    if rainfall >= threshold * 1.25:
+        return (
+            "Severe rainfall conditions detected. "
+            "Restrict weather-sensitive operations and revise the production schedule."
+        )
+    else:
+        return (
+            "High rainfall detected. "
+            "Adjust the production schedule and prioritize safer operations."
+        )
+
+def get_blast_delay_recommendation(blast_delay: float, threshold: float) -> str:
+    if blast_delay >= threshold * 1.25:
+        return (
+            "Severe blast delay detected. "
+            "Urgently reschedule delayed blasting activities to minimize production disruption."
+        )
+    else:
+        return (
+            "Blast delay detected. "
+            "Reprioritize delayed blasting activities to maintain production continuity."
+        )
 
 def build_recommendation(row):
     shortfall = calculate_shortfall(
@@ -43,17 +95,35 @@ def build_recommendation(row):
 
     if shortfall["shortfall_flag"]:
         recommendations.append(
-            "Production shortfall predicted. Consider maintenance or resource reallocation."
+            f"Production shortfall of {shortfall['shortfall_percent']:.2f}% predicted "
+            f"({float(row['predicted_output']):.2f} MT vs "
+            f"{float(row['planned_target']):.2f} MT target). "
+            f"{get_shortfall_recommendation(shortfall['shortfall_percent'])}"
         )
 
     if downtime["triggered"]:
-        recommendations.append(downtime["recommendation"])
+        recommendations.append(
+            get_downtime_recommendation(
+                float(row["downtime"]),
+                downtime["threshold"],
+            )
+        )
 
     if rainfall["triggered"]:
-        recommendations.append(rainfall["recommendation"])
+        recommendations.append(
+            get_rainfall_recommendation(
+                float(row["rainfall"]),
+                rainfall["threshold"],
+            )
+        )
 
     if blast_delay["triggered"]:
-        recommendations.append(blast_delay["recommendation"])
+        recommendations.append(
+            get_blast_delay_recommendation(
+                float(row["blast_delay"]),
+                blast_delay["threshold"],
+            )
+        )
 
     return {
         "mine_id": row["mine_id"],
