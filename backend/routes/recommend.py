@@ -3,8 +3,13 @@ from pathlib import Path
 import pandas as pd
 from fastapi import APIRouter
 
-from backend.rules.recommendation_rules import calculate_shortfall
-
+from backend.rules.recommendation_rules import (
+    calculate_shortfall,
+    calculate_risk_level,
+    check_downtime,
+    check_rainfall,
+    check_blast_delay,
+)
 
 router = APIRouter()
 
@@ -17,7 +22,7 @@ PRODUCTION_PREDICTIONS_FILE = (
 
 def load_production_predictions():
     return pd.read_csv(PRODUCTION_PREDICTIONS_FILE)
-    
+
 
 def build_recommendation(row):
     shortfall = calculate_shortfall(
@@ -25,6 +30,15 @@ def build_recommendation(row):
         planned_target=float(row["planned_target"]),
     )
 
+    downtime = check_downtime(float(row["downtime"]))
+    rainfall = check_rainfall(float(row["rainfall"]))
+    blast_delay = check_blast_delay(float(row["blast_delay"]))
+
+    risk = calculate_risk_level(
+        downtime=float(row["downtime"]),
+        rainfall=float(row["rainfall"]),
+        blast_delay=float(row["blast_delay"]),
+    )
     recommendations = []
 
     if shortfall["shortfall_flag"]:
@@ -32,16 +46,29 @@ def build_recommendation(row):
             "Production shortfall predicted. Consider maintenance or resource reallocation."
         )
 
+    if downtime["triggered"]:
+        recommendations.append(downtime["recommendation"])
+
+    if rainfall["triggered"]:
+        recommendations.append(rainfall["recommendation"])
+
+    if blast_delay["triggered"]:
+        recommendations.append(blast_delay["recommendation"])
+
     return {
         "mine_id": row["mine_id"],
         "period": row["period"],
         "predicted_output": float(row["predicted_output"]),
         "planned_target": float(row["planned_target"]),
+        "risk_level": risk["risk_level"],
+        "trigger_count": risk["trigger_count"],
+        "triggered_conditions": risk["triggered_conditions"],
         "shortfall_flag": shortfall["shortfall_flag"],
         "shortfall": shortfall["shortfall"],
         "shortfall_percent": shortfall["shortfall_percent"],
         "recommendations": recommendations,
     }
+
 
 @router.get("/recommendations")
 def get_recommendations():
