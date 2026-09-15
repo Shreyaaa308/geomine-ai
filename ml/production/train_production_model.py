@@ -92,10 +92,18 @@ mae = mean_absolute_error(y_test, y_pred)
 
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 
+# Calculate average production
+average_actual = y_test.mean()
+
+# Calculate average relative error
+relative_error = (mae / average_actual) * 100
+
 print("\nModel Evaluation")
 print("----------------")
-print("MAE :", round(mae, 2))
-print("RMSE:", round(rmse, 2))
+print("MAE :", round(mae, 2), "tonnes")
+print("RMSE:", round(rmse, 2), "tonnes")
+print("Average actual production:", round(average_actual, 2), "tonnes")
+print("Average relative error:", round(relative_error, 2), "%")
 
 
 # ============================================================
