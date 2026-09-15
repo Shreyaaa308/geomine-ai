@@ -1,0 +1,1705 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_001",
+        "probability_high": 0.06,
+        "probability_medium": 0.11,
+        "probability_low": 0.83,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_002",
+        "probability_high": 0.85,
+        "probability_medium": 0.13,
+        "probability_low": 0.02,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_003",
+        "probability_high": 0.05,
+        "probability_medium": 0.92,
+        "probability_low": 0.03,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_004",
+        "probability_high": 0.0,
+        "probability_medium": 0.14,
+        "probability_low": 0.86,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_005",
+        "probability_high": 0.02,
+        "probability_medium": 0.11,
+        "probability_low": 0.87,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_006",
+        "probability_high": 0.02,
+        "probability_medium": 0.96,
+        "probability_low": 0.02,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_007",
+        "probability_high": 0.02,
+        "probability_medium": 0.96,
+        "probability_low": 0.02,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_008",
+        "probability_high": 0.02,
+        "probability_medium": 0.89,
+        "probability_low": 0.09,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_009",
+        "probability_high": 0.09,
+        "probability_medium": 0.89,
+        "probability_low": 0.02,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.78
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_010",
+        "probability_high": 0.03,
+        "probability_medium": 0.07,
+        "probability_low": 0.9,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_011",
+        "probability_high": 0.22,
+        "probability_medium": 0.72,
+        "probability_low": 0.06,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_012",
+        "probability_high": 0.01,
+        "probability_medium": 0.1,
+        "probability_low": 0.89,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_013",
+        "probability_high": 0.02,
+        "probability_medium": 0.13,
+        "probability_low": 0.85,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_014",
+        "probability_high": 0.01,
+        "probability_medium": 0.03,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_015",
+        "probability_high": 0.06,
+        "probability_medium": 0.93,
+        "probability_low": 0.01,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_016",
+        "probability_high": 0.07,
+        "probability_medium": 0.89,
+        "probability_low": 0.04,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_017",
+        "probability_high": 0.15,
+        "probability_medium": 0.83,
+        "probability_low": 0.02,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_018",
+        "probability_high": 0.6,
+        "probability_medium": 0.38,
+        "probability_low": 0.02,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_019",
+        "probability_high": 0.09,
+        "probability_medium": 0.82,
+        "probability_low": 0.09,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.7856
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_020",
+        "probability_high": 0.03,
+        "probability_medium": 0.86,
+        "probability_low": 0.11,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_021",
+        "probability_high": 0.06,
+        "probability_medium": 0.86,
+        "probability_low": 0.08,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_022",
+        "probability_high": 0.04,
+        "probability_medium": 0.03,
+        "probability_low": 0.93,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_023",
+        "probability_high": 0.25,
+        "probability_medium": 0.67,
+        "probability_low": 0.08,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_024",
+        "probability_high": 0.02,
+        "probability_medium": 0.04,
+        "probability_low": 0.94,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_025",
+        "probability_high": 0.01,
+        "probability_medium": 0.06,
+        "probability_low": 0.93,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_026",
+        "probability_high": 0.0,
+        "probability_medium": 0.03,
+        "probability_low": 0.97,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_027",
+        "probability_high": 0.02,
+        "probability_medium": 0.93,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_028",
+        "probability_high": 0.01,
+        "probability_medium": 0.03,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_029",
+        "probability_high": 0.0,
+        "probability_medium": 0.02,
+        "probability_low": 0.98,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.7911
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_030",
+        "probability_high": 0.0,
+        "probability_medium": 0.07,
+        "probability_low": 0.93,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_031",
+        "probability_high": 0.14,
+        "probability_medium": 0.8,
+        "probability_low": 0.06,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_032",
+        "probability_high": 0.43,
+        "probability_medium": 0.53,
+        "probability_low": 0.04,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_033",
+        "probability_high": 0.05,
+        "probability_medium": 0.9,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_034",
+        "probability_high": 0.29,
+        "probability_medium": 0.64,
+        "probability_low": 0.07,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_035",
+        "probability_high": 0.04,
+        "probability_medium": 0.02,
+        "probability_low": 0.94,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_036",
+        "probability_high": 0.0,
+        "probability_medium": 0.09,
+        "probability_low": 0.91,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_037",
+        "probability_high": 0.03,
+        "probability_medium": 0.94,
+        "probability_low": 0.03,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_038",
+        "probability_high": 0.0,
+        "probability_medium": 0.9,
+        "probability_low": 0.1,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_039",
+        "probability_high": 0.04,
+        "probability_medium": 0.91,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.7967
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_040",
+        "probability_high": 0.0,
+        "probability_medium": 0.06,
+        "probability_low": 0.94,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_041",
+        "probability_high": 0.86,
+        "probability_medium": 0.08,
+        "probability_low": 0.06,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_042",
+        "probability_high": 0.05,
+        "probability_medium": 0.75,
+        "probability_low": 0.2,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_043",
+        "probability_high": 0.01,
+        "probability_medium": 0.98,
+        "probability_low": 0.01,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_044",
+        "probability_high": 0.03,
+        "probability_medium": 0.9,
+        "probability_low": 0.07,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_045",
+        "probability_high": 0.04,
+        "probability_medium": 0.07,
+        "probability_low": 0.89,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_046",
+        "probability_high": 0.07,
+        "probability_medium": 0.88,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_047",
+        "probability_high": 0.01,
+        "probability_medium": 0.03,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_048",
+        "probability_high": 0.07,
+        "probability_medium": 0.88,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_049",
+        "probability_high": 0.0,
+        "probability_medium": 0.04,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.8022
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_050",
+        "probability_high": 0.0,
+        "probability_medium": 0.03,
+        "probability_low": 0.97,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_051",
+        "probability_high": 0.17,
+        "probability_medium": 0.81,
+        "probability_low": 0.02,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_052",
+        "probability_high": 0.02,
+        "probability_medium": 0.02,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_053",
+        "probability_high": 0.01,
+        "probability_medium": 0.03,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_054",
+        "probability_high": 0.04,
+        "probability_medium": 0.13,
+        "probability_low": 0.83,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_055",
+        "probability_high": 0.0,
+        "probability_medium": 0.04,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_056",
+        "probability_high": 0.03,
+        "probability_medium": 0.03,
+        "probability_low": 0.94,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_057",
+        "probability_high": 0.02,
+        "probability_medium": 0.96,
+        "probability_low": 0.02,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_058",
+        "probability_high": 0.02,
+        "probability_medium": 0.05,
+        "probability_low": 0.93,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_059",
+        "probability_high": 0.01,
+        "probability_medium": 0.03,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.8078
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_060",
+        "probability_high": 0.01,
+        "probability_medium": 0.97,
+        "probability_low": 0.02,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_061",
+        "probability_high": 0.0,
+        "probability_medium": 0.85,
+        "probability_low": 0.15,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_062",
+        "probability_high": 0.05,
+        "probability_medium": 0.02,
+        "probability_low": 0.93,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_063",
+        "probability_high": 0.0,
+        "probability_medium": 0.06,
+        "probability_low": 0.94,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_064",
+        "probability_high": 0.07,
+        "probability_medium": 0.88,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_065",
+        "probability_high": 0.02,
+        "probability_medium": 0.95,
+        "probability_low": 0.03,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_066",
+        "probability_high": 0.73,
+        "probability_medium": 0.22,
+        "probability_low": 0.05,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_067",
+        "probability_high": 0.72,
+        "probability_medium": 0.24,
+        "probability_low": 0.04,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_068",
+        "probability_high": 0.0,
+        "probability_medium": 0.03,
+        "probability_low": 0.97,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_069",
+        "probability_high": 0.07,
+        "probability_medium": 0.9,
+        "probability_low": 0.03,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.8133
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_070",
+        "probability_high": 0.07,
+        "probability_medium": 0.86,
+        "probability_low": 0.07,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_071",
+        "probability_high": 0.34,
+        "probability_medium": 0.54,
+        "probability_low": 0.12,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_072",
+        "probability_high": 0.71,
+        "probability_medium": 0.24,
+        "probability_low": 0.05,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_073",
+        "probability_high": 0.78,
+        "probability_medium": 0.19,
+        "probability_low": 0.03,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_074",
+        "probability_high": 0.08,
+        "probability_medium": 0.31,
+        "probability_low": 0.61,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_075",
+        "probability_high": 0.01,
+        "probability_medium": 0.02,
+        "probability_low": 0.97,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_076",
+        "probability_high": 0.09,
+        "probability_medium": 0.86,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_077",
+        "probability_high": 0.25,
+        "probability_medium": 0.67,
+        "probability_low": 0.08,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_078",
+        "probability_high": 0.5,
+        "probability_medium": 0.43,
+        "probability_low": 0.07,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_079",
+        "probability_high": 0.78,
+        "probability_medium": 0.15,
+        "probability_low": 0.07,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.8189
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_080",
+        "probability_high": 0.05,
+        "probability_medium": 0.88,
+        "probability_low": 0.07,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_081",
+        "probability_high": 0.32,
+        "probability_medium": 0.63,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_082",
+        "probability_high": 0.11,
+        "probability_medium": 0.88,
+        "probability_low": 0.01,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_083",
+        "probability_high": 0.02,
+        "probability_medium": 0.02,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_084",
+        "probability_high": 0.51,
+        "probability_medium": 0.36,
+        "probability_low": 0.13,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_085",
+        "probability_high": 0.06,
+        "probability_medium": 0.93,
+        "probability_low": 0.01,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_086",
+        "probability_high": 0.03,
+        "probability_medium": 0.01,
+        "probability_low": 0.96,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_087",
+        "probability_high": 0.05,
+        "probability_medium": 0.22,
+        "probability_low": 0.73,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_088",
+        "probability_high": 0.0,
+        "probability_medium": 0.02,
+        "probability_low": 0.98,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_089",
+        "probability_high": 0.05,
+        "probability_medium": 0.91,
+        "probability_low": 0.04,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.8244
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_090",
+        "probability_high": 0.01,
+        "probability_medium": 0.01,
+        "probability_low": 0.98,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.15,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_091",
+        "probability_high": 0.04,
+        "probability_medium": 0.11,
+        "probability_low": 0.85,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1578,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_092",
+        "probability_high": 0.75,
+        "probability_medium": 0.21,
+        "probability_low": 0.04,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1656,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_093",
+        "probability_high": 0.02,
+        "probability_medium": 0.01,
+        "probability_low": 0.97,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1733,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_094",
+        "probability_high": 0.01,
+        "probability_medium": 0.02,
+        "probability_low": 0.97,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1811,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_095",
+        "probability_high": 0.01,
+        "probability_medium": 0.04,
+        "probability_low": 0.95,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1889,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_096",
+        "probability_high": 0.16,
+        "probability_medium": 0.79,
+        "probability_low": 0.05,
+        "predicted_class": "Medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.1967,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_097",
+        "probability_high": 0.79,
+        "probability_medium": 0.18,
+        "probability_low": 0.03,
+        "predicted_class": "High"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2044,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_098",
+        "probability_high": 0.01,
+        "probability_medium": 0.01,
+        "probability_low": 0.98,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2122,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_099",
+        "probability_high": 0.03,
+        "probability_medium": 0.03,
+        "probability_low": 0.94,
+        "predicted_class": "Low"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.22,
+          21.83
+        ]
+      },
+      "properties": {
+        "grid_cell_id": "CELL_100",
+        "probability_high": 0.02,
+        "probability_medium": 0.01,
+        "probability_low": 0.97,
+        "predicted_class": "Low"
+      }
+    }
+  ]
+}
